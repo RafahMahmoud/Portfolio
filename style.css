@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(#f7ded0, #feece2);
+    height: 100vh;
+}
+header{
+    background-color: #e2bfb3;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+}
+.logo-title{
+    display: flex;
+    padding-left: 25px;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+header .title a {
+    text-decoration: none;
+    color: #231611;
+    text-transform: uppercase;
+    font-size: xx-large;
+    font-weight: 500;
+    align-items: center;
+    padding-left: 0px;
+    
+}
+nav a{
+    color: #231611;
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: 400;
+    padding-left: 20px;
+}
+nav a:hover{
+    color: rgb(249, 249, 218);
+}
+section{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    li
+}
+.hero-section{
+    width:50%;
+    padding-left: 30px;
+}
+p{
+    color: #231611;
+    font-size: large;
+    width: 55%;
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-family: "Ubuntu Mono", monospace;
+}
+h2{
+    color:#543310;
+    font-style: italic;
+    font-size: xx-large;
+    text-shadow:1px 1px 1px #54483a;
+}
+.main-btn{
+    color: #231611;
+    background-color: #FFBE98;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    display: inline-block;
+    padding: 15px 35px;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+.main-btn:hover{
+    transform: scale(1.2);
+}
+.icons a{
+    color: #231611;
+    font-size: large;
+    padding: 0px 15px;
+}
+.container div{
+    background-color: #f7ded0
+}
+.col{
+    display: flex;
+}
+.descreption{
+    visibility: hidden;
+}
+.descreption{
+    transition: 30s ease;
+}
+.image:hover + .descreption{
+    visibility:visible;
+}
+
