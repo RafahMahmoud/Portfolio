@@ -18,11 +18,16 @@ body{
     align-items: center;
     padding: 0px;
 }
+#navbar-logo{
+    display: flex;
+    justify-content: space-between;
+}
+
 .navbar-expand-lg .container{
     margin-left: 60px;
 }
 #navbarSupportedContent{
-    margin-left: 90px;
+    margin-left: 220px;
 }
 .navbar-brand img{
     width: 50px;
@@ -154,15 +159,18 @@ transition: 500ms;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    margin-left: 55px;
+    margin-right: 45px;
+    justify-content: center;
+    
 }
 
 .skill img{
     width: 13em;
     height: 13em;
     margin-top: 30px;
-    margin-left: 7px;
-    margin-right: 7px;
+    margin-left: 10px;
+    margin-right: 10px;
     transition: 500ms ;
 }
 .skill img:hover{
@@ -284,6 +292,7 @@ transition: 500ms;
 .title{
     padding-left: 10%;
 }
+
 #Projects .row .col a{
     font-size: medium;
     font-weight: bold;
