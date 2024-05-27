@@ -50,7 +50,6 @@ body{
     color: rgb(249, 249, 218);
     font-weight: 700;
 }
-
 section{
     min-height: fit-content;
 }
@@ -302,7 +301,7 @@ transition: 500ms;
 }
 .text-center .contact-card p a{
     font-size: 1.2em;
-    word-break: break-all;
+  
 }
 }
 @media (max-width:770px){
@@ -322,15 +321,21 @@ transition: 500ms;
             padding-top: 0px;
         }
 }
-@media (max-width:550px){
-    .text-center .contact-card p a{
-        word-break:keep-all;
-    }
 
-}
-@media (max-width:470px){
+@media(max-width:540px){
     .contact-card{
         margin-bottom: 8px;
     }
-
+    .contact-card .icon{
+        font-size: 3em;
+    }
+    .contact-card h3{
+        color:#543310;
+        font-size: 1em;
+    }
+    .text-center .contact-card p a{
+        font-size: 0.8em;
+        word-break: break-all;
+    }
+    
 }
